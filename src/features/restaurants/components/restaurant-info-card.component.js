@@ -1,7 +1,11 @@
 import React from "react";
 import { Text, StyleSheet } from "react-native";
 import { Avatar, Button, Card, Title, Paragraph } from "react-native-paper";
-import { styled } from "styled-components/native";
+import styled from "styled-components/native";
+
+const StyledText = styled.Text`
+  color: red;
+`;
 
 function RestaurantInfoCard({ restaurant = {} }) {
   const {
